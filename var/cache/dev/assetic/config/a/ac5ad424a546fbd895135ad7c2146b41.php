@@ -23,20 +23,41 @@ return array (
       ),
     ),
   ),
-  'e2e380f' => 
+  '69a279f' => 
   array (
     0 => 
     array (
       0 => '@AppBundle/Resources/public/js/valencepm.js',
-      1 => '@AppBundle/Resources/public/js/naturalSortModule.js',
     ),
     1 => 
     array (
     ),
     2 => 
     array (
-      'output' => '_controller/js/e2e380f.js',
-      'name' => 'e2e380f',
+      'output' => '_controller/js/69a279f.js',
+      'name' => '69a279f',
+      'debug' => NULL,
+      'combine' => NULL,
+      'vars' => 
+      array (
+      ),
+    ),
+  ),
+  '559a7d6' => 
+  array (
+    0 => 
+    array (
+      0 => '@AppBundle/Resources/public/js/valencepm.js',
+      1 => '@AppBundle/Resources/public/js/sorttest.js',
+      2 => '@AppBundle/Resources/public/js/naturalSortModule.js',
+    ),
+    1 => 
+    array (
+    ),
+    2 => 
+    array (
+      'output' => '_controller/js/559a7d6.js',
+      'name' => '559a7d6',
       'debug' => NULL,
       'combine' => NULL,
       'vars' => 

@@ -16,6 +16,7 @@ class ComposerStaticInit2bacd54528de0599260d3905a1eaec01
         '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
         '32dcc8afd4335739640db7d200c1971d' => __DIR__ . '/..' . '/symfony/polyfill-apcu/bootstrap.php',
         'ce89ac35a6c330c55f4710717db9ff78' => __DIR__ . '/..' . '/kriswallsmith/assetic/src/functions.php',
+        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -56,6 +57,8 @@ class ComposerStaticInit2bacd54528de0599260d3905a1eaec01
         'I' => 
         array (
             'Incenteev\\ParameterHandler\\' => 27,
+            'Illuminate\\Support\\' => 19,
+            'Illuminate\\Contracts\\' => 21,
         ),
         'F' => 
         array (
@@ -65,6 +68,7 @@ class ComposerStaticInit2bacd54528de0599260d3905a1eaec01
         array (
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
             'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 36,
             'Doctrine\\Bundle\\DoctrineBundle\\' => 31,
@@ -164,6 +168,14 @@ class ComposerStaticInit2bacd54528de0599260d3905a1eaec01
         array (
             0 => __DIR__ . '/..' . '/incenteev/composer-parameter-handler',
         ),
+        'Illuminate\\Support\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/support',
+        ),
+        'Illuminate\\Contracts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/contracts',
+        ),
         'FOS\\JsRoutingBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/friendsofsymfony/jsrouting-bundle',
@@ -175,6 +187,10 @@ class ComposerStaticInit2bacd54528de0599260d3905a1eaec01
         'Doctrine\\Common\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
         ),
         'Doctrine\\Common\\' => 
         array (
@@ -207,6 +223,13 @@ class ComposerStaticInit2bacd54528de0599260d3905a1eaec01
             'SensioLabs\\Security' => 
             array (
                 0 => __DIR__ . '/..' . '/sensiolabs/security-checker',
+            ),
+        ),
+        'R' => 
+        array (
+            'RobbieP\\ZbarQrdecoder\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/robbiep/zbar-qrdecoder/src',
             ),
         ),
         'P' => 
@@ -267,10 +290,6 @@ class ComposerStaticInit2bacd54528de0599260d3905a1eaec01
             'Doctrine\\Common\\Collections\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/collections/lib',
-            ),
-            'Doctrine\\Common\\Annotations\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/annotations/lib',
             ),
         ),
         'A' => 
